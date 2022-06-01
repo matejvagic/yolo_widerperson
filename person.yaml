@@ -1,0 +1,9 @@
+path: yoloDataset  # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: val/images  # val images (relative to 'path') 128 images
+
+# number of classes
+nc: 5
+
+# class names
+names: ["pedestrians", "riders", "partially-visible persons", "ignore regions", "crowd"]
